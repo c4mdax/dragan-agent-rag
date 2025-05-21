@@ -1,0 +1,27 @@
+# Core
+langchain-community==0.0.29
+langchain-text-splitters==0.0.1
+
+# Document Loaders
+pypdf==3.17.0
+unstructured==0.12.5
+
+# Embeddings
+sentence-transformers==2.7.0
+langchain-huggingface==0.0.4
+
+# Vector DB
+chromadb==0.4.22
+langchain-chroma==0.1.2
+
+# LLM Local (Ollama)
+ollama==0.1.14
+
+# Utils
+python-dotenv==1.0.0
+tqdm==4.66.1
+
+pdfminer.six==20221105  # Para diagnóstico
+unstructured==0.12.5  # Loader alternativo
+pdf2image==1.16.3  # Para OCR
+pytesseract==0.3.10  # Para OCR
