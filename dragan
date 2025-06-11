@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Script para simplificar la ejecución del agente Dragan
+
+DOCS_PATH="$1"
+QUESTION="$2"
+
+if [ -z "$DOCS_PATH" ] || [ -z "$QUESTION" ]; then
+  echo "Uso: dragan <ruta_docs> \"<pregunta>\""
+  exit 1
+fi
+
+python -m app.main --docs_path "$DOCS_PATH" --question "$QUESTION" --rebuild
