@@ -9,7 +9,7 @@ from app.loader import list_valid_files, load_documents
 
 # Prompt template
 PROMPT_TEMPLATE = """
-Eres un asistente especializado en análisis de documentos. Responde en español usando ÚNICAMENTE la información proporcionada en el contexto, haciendo paráfrasis de la información evitando redundancias, cacofonias y enunciados sin sentido. 
+Eres un asistente especializado en análisis de documentos. Responde en español usando ÚNICAMENTE la información proporcionada en el contexto, haciendo paráfrasis de la información evitando redundancias, cacofonias y enunciados sin sentido, dando una respuesta concisa y precisa.
 
 Si el contexto no contiene información relevante a la pregunta, reporta agradablemente (si quieres puedes usar emojis) que no hay información suficiente en los documentos proporcionados, invitando al usuario a proporcionar más documentos relacionados.
 
